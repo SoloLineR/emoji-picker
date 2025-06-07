@@ -32,3 +32,8 @@
 body {
   @apply bg-bg text-on-primary font-pixelify-sans;
 }
+
+html,
+body {
+  height: 100%;
+}

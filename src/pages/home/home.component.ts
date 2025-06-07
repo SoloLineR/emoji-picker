@@ -16,7 +16,10 @@ import { AsyncPipe } from '@angular/common';
 
       @if(emoji$ | async; as emoji ){
       <div>
-        <div class="text-[200px]" [innerHTML]="emoji.htmlCode[0]"></div>
+        <div
+          class="text-[200px] text-center"
+          [innerHTML]="emoji.htmlCode[0]"
+        ></div>
         <p class="text-3xl text-center">Name: {{ emoji.name }}</p>
         <p class="text-2xl text-center ">Category: {{ emoji.category }}</p>
         <p class="text-2xl text-center">Group: {{ emoji.group }}</p>
