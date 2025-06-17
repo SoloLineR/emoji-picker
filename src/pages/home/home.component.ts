@@ -11,7 +11,7 @@ import { AsyncPipe } from '@angular/common';
         Emoji Picker
       </h1>
       <h2 class="text-3xl font-bold text-center text-on-primary">
-        Pick your favorite emoji
+        Pick your favorite emoji!
       </h2>
 
       @if(emoji$ | async; as emoji ){
