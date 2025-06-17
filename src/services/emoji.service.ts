@@ -9,4 +9,14 @@ export class EmojiService {
   private http = inject(HttpClient);
 
   randomEmoji$ = this.http.get<Emoji>(`${environment.apiUrl}/random`);
+
+  getEmojiByCategory(category: string) {
+    return this.http.get<Emoji[]>(
+      `${environment.apiUrl}/all/category/${category}`
+    );
+  }
+
+  getEmojiByGroup(group: string) {
+    return this.http.get<Emoji[]>(`${environment.apiUrl}/all/group/${group}`);
+  }
 }

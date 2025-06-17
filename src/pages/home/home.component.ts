@@ -7,7 +7,7 @@ import { AsyncPipe } from '@angular/common';
   imports: [AsyncPipe],
   template: `<div class="flex justify-center items-center flex-col">
     <div class="flex-1 flex flex-col justify-center items-center gpa-5">
-      <h1 class="text-6xl font-bold text-center text-on-primary pt-20">
+      <h1 class="text-6xl font-bold text-center text-on-primary ">
         Emoji Picker
       </h1>
       <h2 class="text-3xl font-bold text-center text-on-primary">
