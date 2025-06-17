@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href https://sololiner.github.io/emoji-picker/",
+    "build": "ng build --base-href https://sololiner.github.io/emoji-picker/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
